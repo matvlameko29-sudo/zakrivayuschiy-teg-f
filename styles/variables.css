@@ -1,1 +1,28 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  /* Цвета */
+  --color-main: #000000;
+  --color-background: #ffffff;
+  --color-like-active: #ff0000;
+  --color-accent: #000000;
+  --color-button-text: #ffffff;
+  --gradient-start: #e7e7e7;
+  --gradient-end: #1a1a1a;
+
+  /* Цвета иконки сердца */
+  --contour-color: #000000;
+  --animation-fill-color: #ff0000;
+
+  /* Размеры */
+  --content-width: clamp(375px, 100%, 700px);
+  --card-width: clamp(375px, 100%, 701px);
+  --tile-size: 32px;
+  --adaptive-gap: clamp(10px, 3vw, 25px);
+
+  /* Шрифты */
+  --font-main: "Inter-Variable", sans-serif;
+  --font-accent: "PressStart2P", "Press Start 2P", fantasy;
+
+  /* Веса вариативного шрифта Inter */
+  --font-weight-text: 410;
+  --font-weight-title: 700;
+}
